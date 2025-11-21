@@ -19,7 +19,7 @@ const About = () => {
     },
   };
   return (
-    <div className="min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between pl-[4%] pr-[4%]">
+    <div className="min-h-[100vh] pt-20 flex flex-col-reverse lg:flex-row items-center justify-between pl-[4%] pr-[4%]">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
