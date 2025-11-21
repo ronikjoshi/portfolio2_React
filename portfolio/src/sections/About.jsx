@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";
 import { RiFolderInfoFill } from "react-icons/ri";
-import TypeAnimation from "react-type-animation";
+import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
-import coding from "../../../assets/coding.json";
-import "../../../pages/shared/Shared.css";
-import { SecondaryBtn } from "../../../components";
+import coding from "../assets/lottie/coding.json";
+import "../styles/Shared.css";
+import SecondaryBtn from "../components/SecondaryBtn";
 
 const About = () => {
   const defaultOptions = {
@@ -19,14 +19,14 @@ const About = () => {
     },
   };
   return (
-    <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
+    <div className="min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between pl-[4%] pr-[4%]">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
         <h2 className="text-neutral text-xl font-medium translate-y-[-90%] sm:translate-y-[-0%]">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">Gilbert Hutapea</h1>
+        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">Ronik Joshi</h1>
         <div className="my-4">
           <TypeAnimation
             className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
@@ -53,30 +53,22 @@ const About = () => {
           dedicated to explore New Tools And Technologies. */}
         </p>
 
-        <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
+        <div className="translate-y-[-60%] sm:translate-y-[-0%]">
           <a
             href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
             target="blank"
           >
-            <button className="primary-button">
+            <button className="flex items-center gap-3 px-6 py-3 bg-primary text-white text-lg font-semibold rounded-lg hover:bg-orange-600 transition">
               <span>My Resume</span>
               <span>
                 <FaDownload />
               </span>
             </button>
           </a>
-          <Link to="/about" className="ml-4">
-            <SecondaryBtn>
-              <span>About Me</span>
-              <span>
-                <RiFolderInfoFill />
-              </span>
-            </SecondaryBtn>
-          </Link>
         </div>
       </motion.div>
       <motion.div
-        className="w-full md:w-1/2"
+        className="w-full md:w-3/4"
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
