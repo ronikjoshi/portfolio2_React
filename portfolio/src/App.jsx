@@ -7,14 +7,16 @@ import Projects from './pages/Projects.jsx';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <div className="min-h-screen bg-[#0b0c10] text-white"> 
+        <Navbar />
 
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
 
-      <Footer />
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
