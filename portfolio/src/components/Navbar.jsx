@@ -53,7 +53,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full z-50 bg-neutral-800 shadow-lg transition-transform duration-300 ${
+      className={`fixed w-full z-50 bg-[#1A1A1A] shadow-lg transition-transform duration-300 ${
         hidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >

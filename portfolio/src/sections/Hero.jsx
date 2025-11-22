@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[100vh] flex flex-col items-center justify-center text-center px-6 py-20 bg-neutral-900 text-white"
+      className="min-h-[100vh] flex flex-col items-center justify-center text-center px-6 py-20 bg-[#2A2A2A] text-white"
     >
       {/* Name */}
       <h1 className="text-4xl md:text-5xl font-bold mb-4">

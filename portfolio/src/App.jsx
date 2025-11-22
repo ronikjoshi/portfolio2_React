@@ -7,7 +7,7 @@ import Projects from './pages/Projects.jsx';
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-[#0b0c10] text-white"> 
+      <div className="min-h-screen bg-[#212121] text-white"> 
         <Navbar />
 
         <Routes>
