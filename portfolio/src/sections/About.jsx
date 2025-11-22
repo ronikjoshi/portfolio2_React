@@ -1,13 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { FaDownload } from "react-icons/fa";
-import { RiFolderInfoFill } from "react-icons/ri";
+import React, { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import Lottie from "react-lottie";
 import coding from "../assets/lottie/coding.json";
 import "../styles/Shared.css";
-import SecondaryBtn from "../components/SecondaryBtn";
+
+import { FaDownload } from "react-icons/fa";
 
 const About = () => {
   const defaultOptions = {
@@ -18,18 +17,38 @@ const About = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  // ⭐ Scroll trigger: detect when About enters viewport
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [animateSection, setAnimateSection] = useState(false);
+
+  useEffect(() => {
+    if (inView) setAnimateSection(true);
+  }, [inView]);
+
   return (
-    <div className="min-h-[100vh] pt-20 flex flex-col-reverse lg:flex-row items-center justify-between pl-[4%] pr-[4%]">
-      <motion.div
-        initial={{ x: "-100vw" }}
-        animate={{ x: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <h2 className="text-neutral text-xl font-medium translate-y-[-90%] sm:translate-y-[-0%]">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">Ronik Joshi</h1>
+    <motion.div
+      ref={ref}
+      className="min-h-[100vh] pt-20 flex flex-col-reverse lg:flex-row items-center justify-between pl-[4%] pr-[4%] gap-12"
+
+      // ⭐ Animate entire section together
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={animateSection ? { opacity: 1, scale: 1 } : {}}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
+      {/* LEFT CONTENT */}
+      <div className="max-w-xl">
+        <h2 className="text-neutral text-xl font-medium">
+          Hello, I'm
+        </h2>
+
+        <h1 className="text-4xl font-semibold mb-0">
+          Ronik Joshi
+        </h1>
+
         <div className="my-4">
           <TypeAnimation
-            className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
+            className="text-2xl text-primary font-bold"
             cursor={true}
             sequence={[
               "A Mern-stack Developer",
@@ -43,39 +62,30 @@ const About = () => {
             repeat={Infinity}
           />
         </div>
-        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
+
+        <p className="text-neutral max-w-xl mb-6 font-medium">
           As a MERN stack developer, I am committed to building high-quality web
           applications that meet the needs of my clients. With years of
-          experience in full-stack web development, I specialize in using
-          React.js, Next js, Typescript, MongoDB, Express.js, and Node.js to
-          create scalable and robust web applications.
-          {/* I am a Front-end Developer. I am very passionate to my work and
-          dedicated to explore New Tools And Technologies. */}
+          experience in full-stack development, I use React.js, Next.js,
+          Typescript, MongoDB, Express.js, and Node.js to build scalable apps.
         </p>
 
-        <div className="translate-y-[-60%] sm:translate-y-[-0%]">
-          <a
-            href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
-            target="blank"
-          >
-            <button className="flex items-center gap-3 px-6 py-3 bg-primary text-white text-lg font-semibold rounded-lg hover:bg-orange-600 transition">
-              <span>My Resume</span>
-              <span>
-                <FaDownload />
-              </span>
-            </button>
-          </a>
-        </div>
-      </motion.div>
-      <motion.div
-        className="w-full md:w-3/4"
-        initial={{ x: "100vw" }}
-        animate={{ x: 0 }}
-        transition={{ duration: 1 }}
-      >
+        <a
+          href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+          target="blank"
+        >
+          <button className="flex items-center gap-3 px-6 py-3 bg-primary text-white text-lg font-semibold rounded-lg hover:bg-orange-600 transition">
+            <span>My Resume</span>
+            <FaDownload />
+          </button>
+        </a>
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div className="w-full md:w-3/4 flex justify-center">
         <Lottie options={defaultOptions} height="90%" width="90%" />
-      </motion.div>
-    </div>
+      </div>
+    </motion.div>
   );
 };
 

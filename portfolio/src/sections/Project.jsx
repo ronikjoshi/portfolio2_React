@@ -5,25 +5,27 @@ import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import BottomLine from "../components/BottomLine";
 import Items from "../Utils/Items";
-import { headingAnimation, sectionBodyAnimation } from "../hooks/useAnimation";
 
 const Project = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
-  // controls which category is active
   const [active, setActive] = useState("all");
 
-  // Intersection observer for animation
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  // ⭐ Scroll trigger for the whole Project section
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [animateSection, setAnimateSection] = useState(false);
 
-  // Filter items efficiently using useMemo
+  useEffect(() => {
+    if (inView) setAnimateSection(true);
+  }, [inView]);
+
+  // Filtering
   const filteredItems = useMemo(() => {
     if (active === "all") return Items;
     return Items.filter((item) => item.category === active);
   }, [active]);
 
-  // Slice only on home route
   const visibleItems = useMemo(() => {
     return isHome ? filteredItems.slice(0, 3) : filteredItems;
   }, [filteredItems, isHome]);
@@ -36,30 +38,28 @@ const Project = () => {
   ];
 
   return (
-    <div className={`${!isHome && "pt-16"}`}>      
+    <motion.div
+      ref={ref}
+      className={`${!isHome ? "" : ""}`}
+      
+      // ⭐ Whole project section fades + scales in together
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={animateSection ? { opacity: 1, scale: 1 } : {}}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
       <div className="max-w-6xl mx-auto py-12 px-4">
+        
         {/* Heading */}
-        <motion.div
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          variants={headingAnimation}
-        >
-          <div className="mb-12 text-center">
-            <h3 className="text-neutral-300">Some of my recent Projects</h3>
-            <h1 className="text-4xl font-semibold">
-              Featured <span className="text-primary">Projects</span>
-            </h1>
-            <BottomLine />
-          </div>
-        </motion.div>
+        <div className="mb-12 text-center">
+          <h3 className="text-neutral-300">Some of my recent Projects</h3>
+          <h1 className="text-4xl font-semibold">
+            Featured <span className="text-primary">Projects</span>
+          </h1>
+          <BottomLine />
+        </div>
 
         {/* Filters */}
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          variants={sectionBodyAnimation}
-        >
+        <div>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             {categories.map((cat) => (
               <button
@@ -103,7 +103,7 @@ const Project = () => {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </div>
 
         {/* See All button (only on home) */}
         {isHome && (
@@ -117,7 +117,7 @@ const Project = () => {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

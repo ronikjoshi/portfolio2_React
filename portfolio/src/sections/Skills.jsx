@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 import Lottie from "react-lottie";
 import {
   FaHtml5,
@@ -15,20 +18,20 @@ import {
   SiFirebase,
   SiMui,
 } from "react-icons/si";
+
+import BottomLine from "../components/BottomLine";
 import man from "../assets/lottie/man.json";
 
 const Skills = () => {
-  // ⭐ Single array for all skills
+  // ⭐ All skills in one array
   const skills = [
     { title: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
     { title: "CSS", icon: <FaCss3Alt className="text-blue-400" /> },
     { title: "JavaScript", icon: <SiJavascript className="text-yellow-500" /> },
     { title: "NodeJS", icon: <FaNodeJs className="text-green-600" /> },
-
     { title: "React", icon: <FaReact className="text-cyan-400" /> },
     { title: "Tailwind", icon: <SiTailwindcss className="text-cyan-400" /> },
     { title: "ExpressJS", icon: <SiExpress className="text-neutral" /> },
-
     { title: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
     { title: "GitHub", icon: <FaGithub className="text-black" /> },
     { title: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
@@ -44,11 +47,31 @@ const Skills = () => {
     },
   };
 
+  // ⭐ Scroll Trigger Setup (same as About)
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [animateSection, setAnimateSection] = useState(false);
+
+  useEffect(() => {
+    if (inView) setAnimateSection(true);
+  }, [inView]);
+
   return (
-    <div className="pt-24">
-      <h1 className="text-4xl font-semibold drop-shadow-md text-center mb-8 -translate-x-3">
-        My <span className="text-primary">Skills</span>
-      </h1>
+    <motion.div
+      ref={ref}
+      className="pt-24"
+      
+      // ⭐ Smooth fade + scale animation for whole section
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={animateSection ? { opacity: 1, scale: 1 } : {}}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
+      {/* Heading + BottomLine */}
+      <div className="text-center mb-8 -translate-x-3">
+        <h1 className="text-4xl font-semibold drop-shadow-md">
+          My <span className="text-primary">Skills</span>
+        </h1>
+        <BottomLine size="small" />
+      </div>
 
       <div className="flex flex-col md:flex-row items-center justify-evenly my-8 gap-12">
 
@@ -77,10 +100,11 @@ const Skills = () => {
               </div>
             ))}
           </div>
+
         </div>
 
       </div>
-    </div>
+    </motion.div>
   );
 };
 

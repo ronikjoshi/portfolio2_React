@@ -1,17 +1,17 @@
 import React from "react";
 import "./BottomLine.css";
 
-const BottomLine = () => {
+const BottomLine = ({ size = "large" }) => {
   return (
-    <>
-      <div className="flex items-center justify-center mt-4">
-        <div className="side-line"></div>
-        <div className="middle-line">
-          <div className="inner-circle"></div>
-        </div>
-        <div className="side-line"></div>
+    <div className="flex items-center justify-center mt-4">
+      <div className={`side-line ${size}`}></div>
+
+      <div className={`middle-line ${size}`}>
+        <div className={`inner-circle ${size}`}></div>
       </div>
-    </>
+
+      <div className={`side-line ${size}`}></div>
+    </div>
   );
 };
 
