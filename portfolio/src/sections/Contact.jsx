@@ -140,22 +140,22 @@ export default function Contact() {
           <div className="space-y-8">
             <div className="flex items-center">
               <FaUserAlt className="text-2xl text-orange-500 mr-5" />
-              <p className="text-lg">Gilbert Hutapea</p>
+              <p className="text-lg">Ronik Joshi</p>
             </div>
 
             <div className="flex items-center">
               <FaPhoneAlt className="text-2xl text-orange-500 mr-5" />
-              <p className="text-lg">+62 823 6148 4992</p>
+              <p className="text-lg">+91 8192815145</p>
             </div>
 
             <div className="flex items-center">
               <MdEmail className="text-3xl text-orange-500 mr-5" />
-              <p className="text-lg">berthutapea@gmail.com</p>
+              <p className="text-lg">ronikjoshi98@gmail.com</p>
             </div>
 
             <div className="flex items-center">
               <FaLocationArrow className="text-2xl text-orange-500 mr-5" />
-              <p className="text-lg">Karawang, Jawa Barat, Indonesia</p>
+              <p className="text-lg">Dehradun, India</p>
             </div>
           </div>
 

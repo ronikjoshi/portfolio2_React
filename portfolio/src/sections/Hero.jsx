@@ -17,7 +17,7 @@ export default function Hero() {
       </h1>
 
       {/* Tagline */}
-      <p className="text-lg md:text-xl text-gray-300 max-w-xl mb-8">
+      <p className="text-lg md:text-xl text-gray-300 max-w-3xl mb-8">
         Front-End Developer | Creating Modern Interfaces | Lifelong Learner
       </p>
 

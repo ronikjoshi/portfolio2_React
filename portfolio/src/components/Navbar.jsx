@@ -62,7 +62,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/">
           <h1 className="text-2xl text-orange-500 font-lobster pl-6">
-            Gilbert Hutapea
+            Ronik Joshi
           </h1>
         </Link>
 
