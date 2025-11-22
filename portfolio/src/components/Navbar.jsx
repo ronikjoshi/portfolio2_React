@@ -10,14 +10,14 @@ import { MdWork } from "react-icons/md";
 
 // Reusable Resume button
 const ResumeButton = () => (
-  <a
-    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 rounded-md text-white hover:bg-orange-600 transition"
-  >
-    Resume <FaDownload />
-  </a>
+      <a
+      href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-5 py-2.5 text-lg font-semibold bg-orange-500 rounded-md text-white hover:bg-orange-600 transition"
+    >
+      Resume <FaDownload />
+    </a>
 );
 
 export default function Navbar() {
@@ -73,13 +73,14 @@ export default function Navbar() {
               key={item.title}
               to={item.link}
               className={({ isActive }) =>
-                `transition hover:text-orange-400 ${
-                  isActive ? "text-orange-400 font-medium" : "text-white"
+                `transition text-lg font-bold hover:text-orange-400 ${
+                  isActive ? "text-orange-400" : "text-white"
                 }`
               }
             >
               {item.title}
             </NavLink>
+
           ))}
 
           <ResumeButton />
