@@ -1,9 +1,9 @@
-function Projects() {
+import Project from "../sections/Project";
+
+export default function ProjectPage() {
   return (
-    <main className="max-w-4xl mx-auto p-4">
-      Projects Page
-    </main>
+    <div className="pt-20">
+      <Project />   {/* shows ALL projects */}
+    </div>
   );
 }
-
-export default Projects;
