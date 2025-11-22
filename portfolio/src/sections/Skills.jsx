@@ -54,12 +54,12 @@ const Skills = () => {
   };
   return (
     <div className="pt-24">
-      <h1 className="text-4xl font-semibold drop-shadow-md text-center mb-8">
+      <h1 className="text-4xl font-semibold drop-shadow-md text-center mb-8 -translate-x-3">
         My <span className="text-primary">Skills</span>
       </h1>
-      <div className="flex flex-col md:flex-row items-center justify-evenly my-8">
+      <div className="flex flex-col md:flex-row items-center justify-evenly my-8 gap-12">
         
-        <div>
+        <div className="md:-translate-x-12">
           <Lottie options={defaultOptions} height={400} width={360} />
         </div>
         
