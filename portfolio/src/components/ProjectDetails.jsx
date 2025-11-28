@@ -10,13 +10,11 @@ import placeholderImage from "../assets/placeholder.jpg";
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  const [item, setItem] = useState(null);
+  const [item, setItem] = useState();
 
   useEffect(() => {
-    console.log("URL ID:", id);
-    const match = Items.find((x) => x.id === Number(id));
-    console.log("Matched Item:", match);
-    setItem(match);
+    const filtered = Items.find((item) => item.id === parseInt(id));
+    setItem(filtered);
   }, [id]);
 
   const settings = {
@@ -39,60 +37,71 @@ const ProjectDetails = () => {
     ],
   };
 
-  if (!item) return <div className="p-10 text-white">Loading...</div>;
-
   return (
     <div className="max-w-6xl mx-auto py-16 px-4 text-neutral-300">
+
+      {/* Title */}
       <h1 className="text-center text-4xl font-semibold text-white mb-10">
-        {item.title}
+        {item?.title}
       </h1>
 
+      {/* Image Slider */}
       <Slider {...settings}>
-        {item.img.map((image, index) => (
+        {item?.img?.map((image, index) => (
           <div key={index} className="mt-6 px-3">
             <div className="rounded-lg overflow-hidden shadow-lg bg-[#313131] border-2 border-primary">
               <LazyLoadImage
                 placeholderSrc={placeholderImage}
                 src={image}
-                className="w-full h-72 object-cover"
+                className="w-full h-56 md:h-72 object-cover"
               />
             </div>
           </div>
         ))}
       </Slider>
 
+      {/* Description */}
       <p className="mt-10 text-lg leading-relaxed">
         <span className="font-semibold text-white text-xl">Description: </span>
-        {item.description}
+        {item?.description}
       </p>
 
+      {/* Features */}
       <div className="mt-10">
         <h2 className="text-2xl font-semibold text-white mb-4">Features:</h2>
         <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
-          {item.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
+          {item?.features?.map((feature, index) => (
+            <li key={index} className="text-neutral-300">
+              {feature}
+            </li>
           ))}
         </ul>
       </div>
 
+      {/* Technologies */}
       <div className="mt-10">
-        <h2 className="text-2xl font-semibold text-white mb-4">Tools & Technologies:</h2>
+        <h2 className="text-2xl font-semibold text-white mb-4">
+          Tools & Technologies:
+        </h2>
         <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
-          {item.technologies.map((tech, index) => (
-            <li key={index}>{tech}</li>
+          {item?.technologies?.map((tech, index) => (
+            <li key={index} className="text-neutral-300">
+              {tech}
+            </li>
           ))}
         </ul>
       </div>
 
+      {/* Buttons */}
       <div className="flex items-center gap-4 mt-12">
-        <a href={item.liveLink} target="blank">
+        <a href={item?.liveLink} target="blank">
           <PrimaryBtn>
             <span>Visit Now</span>
             <FaLink />
           </PrimaryBtn>
         </a>
 
-        <a href={item.codeLink} target="blank">
+        <a href={item?.codeLink} target="blank">
           <SecondaryBtn>
             <span>Source Code</span>
             <FaCode />

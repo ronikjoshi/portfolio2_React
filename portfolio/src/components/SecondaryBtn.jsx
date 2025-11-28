@@ -2,7 +2,18 @@ import React from "react";
 
 const SecondaryBtn = ({ children, className, onClick }) => {
   return (
-    <button className={`${className} btn text-white flex items-center gap-2 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent duration-500`} onClick={onClick}>
+    <button
+      onClick={onClick}
+      className={`
+        px-4 py-2 rounded-md font-semibold 
+        flex items-center gap-2 
+        border-2 border-primary 
+        bg-transparent text-primary
+        hover:bg-primary hover:text-white
+        transition-all duration-300
+        ${className}
+      `}
+    >
       {children}
     </button>
   );
