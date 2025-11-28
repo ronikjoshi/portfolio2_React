@@ -7,6 +7,9 @@ import SecondaryBtn from "./SecondaryBtn";
 import { FaLink, FaCode } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import placeholderImage from "../assets/placeholder.jpg";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../styles/slick-custom.css";
 
 const ProjectDetails = () => {
   const { id } = useParams();
