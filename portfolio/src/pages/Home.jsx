@@ -2,7 +2,7 @@ import About from "../sections/About";
 import Contact from "../sections/Contact";
 import Skills from "../sections/Skills";
 import Hero from "../sections/Hero";
-import Project from "../sections/Project";
+import Projects from "./Projects";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <Hero />
       <About />
       <Skills />
-      <Project />
+      <Projects />
       <Contact />
     </main>
   );
