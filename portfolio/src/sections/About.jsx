@@ -67,7 +67,7 @@ const About = () => {
           As a MERN stack developer, I am committed to building high-quality web
           applications that meet the needs of my clients. With years of
           experience in full-stack development, I use React.js, Next.js,
-          Typescript, MongoDB, Express.js, and Node.js to build scalable apps.
+          Typescript, MongoDB, Express.js, and Node.js to build scalable apps. Will change it tomorrow
         </p>
 
         <a
