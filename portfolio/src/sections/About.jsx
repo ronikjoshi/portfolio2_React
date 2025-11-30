@@ -64,10 +64,8 @@ const About = () => {
         </div>
 
         <p className="text-neutral max-w-xl mb-6 font-medium">
-          As a MERN stack developer, I am committed to building high-quality web
-          applications that meet the needs of my clients. With years of
-          experience in full-stack development, I use React.js, Next.js,
-          Typescript, MongoDB, Express.js, and Node.js to build scalable apps. Will change it tomorrow
+          I’m a MERN Stack Developer with strong front-end expertise, supported by hands-on experience at Tata Consultancy Services (TCS). There, I built responsive, user-friendly interfaces and worked with agile teams to deliver scalable, high-quality web solutions focused on modern UI/UX and performance optimization.
+While front-end is my core strength, I also work confidently with Node.js, Express, and MongoDB, allowing me to build clean and efficient end-to-end features. I’m continually learning and passionate about creating smooth, impactful digital experiences.
         </p>
 
         <a

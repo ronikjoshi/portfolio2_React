@@ -18,7 +18,7 @@ export default function Hero() {
 
       {/* Tagline */}
       <p className="text-lg md:text-xl text-gray-300 max-w-3xl mb-8">
-        Front-End Developer | Creating Modern Interfaces | Lifelong Learner
+        MERN Stack Developer | Creating Modern Interfaces | Lifelong Learner
       </p>
 
       {/* Profile Image with Glowing Border */}
