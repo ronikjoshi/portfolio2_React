@@ -3,6 +3,7 @@ import Contact from "../sections/Contact";
 import Skills from "../sections/Skills";
 import Hero from "../sections/Hero";
 import Projects from "./Projects";
+import Experience from "../sections/Experience";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <About />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
     </main>
