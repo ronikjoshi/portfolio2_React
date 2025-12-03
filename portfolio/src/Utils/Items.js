@@ -962,7 +962,7 @@ const Items = [
     ],
     title: "TutorX",
     description:
-      "",
+      "TutorX is a full-fledged MERN stack online learning platform where students can explore, purchase, and learn from structured courses, while instructors can create and manage educational content. The platform integrates powerful features like secure authentication, cloud media handling, real payment gateway integration, analytics dashboards, and a modern, responsive UI optimized for learning. It uses Cloudinary for storing course media, Razorpay for secure payments, and MongoDB for managing all user & course data. The architecture follows industry standards with modular routing, controllers, middleware, and reusable services—making it scalable and production-ready.",
     category: "personal",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/TutorX",
