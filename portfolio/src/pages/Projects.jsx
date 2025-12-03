@@ -32,11 +32,13 @@ const Projects = () => {
   }, [filteredItems, isHome]);
 
   const categories = [
-    { key: "all", label: "All" },
-    { key: "business", label: "Business" },
-    { key: "personal", label: "Personal" },
-    { key: "game", label: "Game" },
-  ];
+  { key: "all", label: "All" },
+  { key: "mern", label: "MERN" },
+  { key: "react", label: "React" },
+  { key: "javascript", label: "JavaScript" },
+  { key: "htmlcss", label: "HTML + CSS" },
+  { key: "html", label: "HTML" },
+];
 
   return (
     <motion.div

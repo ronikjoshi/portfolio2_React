@@ -26,7 +26,7 @@ const Items = [
     title: "My Favorite Recipe Page",
     description:
       "This project is a simple HTML-based recipe page that displays the steps to make a delicious chocolate cake. It includes well-structured sections such as ingredients, preparation steps, and helpful baking tips. The page uses basic HTML elements like headings, lists, text formatting tags, and separators to present the recipe clearly and neatly. It serves as a beginner-friendly example of organizing content using semantic HTML.",
-    category: "business",
+    category: "html",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/My_Favourite_Recipe_Page_H",
   },
@@ -62,7 +62,7 @@ const Items = [
     title: "My Favorite Movie Page",
     description:
       "This project is an HTML-based movie webpage that showcases my favorite film. It includes a movie title, description, images, links, and multimedia elements such as video, audio, and an embedded YouTube trailer. The page also uses anchor tags for navigation and features a cast section with a list of main actors. This project helps practice essential HTML concepts like images, videos, audio, iframes, and internal/external linking.",
-    category: "personal",
+    category: "html",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/My_Favourite_Movie_Page_H",
   },
@@ -98,7 +98,7 @@ const Items = [
     title: "Restaurant Webpage",
     description:
       "This project is a fully structured restaurant webpage created using semantic HTML. It showcases a fictional restaurant and includes sections for navigation, an about page, menu items, opening hours, and contact information. The project focuses on using semantic tags such as <nav>, <header>, <main>, <section>, <article>, <footer>, and proper HTML elements like tables, lists, and spans. It demonstrates strong understanding of HTML structure, layout organization, and content grouping.",
-    category: "personal",
+    category: "html",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Restaurant_Webpage_H",
   },
@@ -141,7 +141,7 @@ const Items = [
     title: "Event Registration Form",
     description:
       "This project is a fully functional event registration form built using HTML. It collects essential participant details such as name, email, gender, interests, experience level, and preferred sessions. The form includes a variety of HTML input types like text fields, email, password, radio buttons, checkboxes, dropdowns, datalists, textareas, and a submit button. It demonstrates strong foundational skills in creating structured, user-friendly forms using core HTML elements.",
-    category: "business",
+    category: "html",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Event_Registration_Form_H",
   },
@@ -170,7 +170,7 @@ const Items = [
     title: "Personal Profile Card",
     description:
       "This project is a simple and modern Profile Card created using HTML and CSS. It showcases a user’s name, profession, a short description, skills, and a call-to-action button. The layout demonstrates clean styling, spacing, scrollable text, and basic UI component design. It’s a good beginner project for learning how to create reusable profile components in websites or portfolios.",
-    category: "business",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Personal_Profile_Card_HC",
   },
@@ -198,7 +198,7 @@ const Items = [
     title: "Coffee Shop Menu",
     description:
       "This project is a beautifully designed Coffee Menu webpage for a fictional café. It uses HTML and CSS to showcase signature drinks, classic favorites, a hero banner, and a footer section with location and hours. The design includes modern styling techniques such as gradients, custom typography, shadows, and responsive layout elements. The page demonstrates structured content, elegant typography, and a polished UI suitable for restaurant or café websites.",
-    category: "game",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Coffee_Shop_Menu_HC",
   },
@@ -230,7 +230,7 @@ const Items = [
     title: "Interactive Profile Card",
     description:
       "This project is an interactive profile card built using HTML and CSS. It displays a user’s profile picture, name, title, and social stats, along with a “Connect” button. The design includes modern UI techniques such as hover effects, transitions, transforms, pseudo-elements, and box-model styling. The card smoothly animates when hovered and features a clean, minimal, professional layout suitable for portfolios, user profiles, or social media UIs.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Interactive_Profile_Card_HC",
   },
@@ -259,7 +259,7 @@ const Items = [
     title: "Responsive Card Layout",
     description:
       "A simple, modern portfolio card built with HTML and CSS using a mobile-first approach. The layout stacks vertically on small screens and automatically shifts into a side-by-side design on larger screens using Flexbox and media queries. This component is ideal for showcasing developer profiles, team members, or portfolio sections.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Responsive_Card_Layout_HC",
   },
@@ -289,7 +289,7 @@ const Items = [
     title: "Fashion Store – Static E-Commerce Webpage",
     description:
       "This project is a static, fully structured fashion store webpage built using HTML and CSS. It displays product categories, upcoming festival sales, and store information in a clean, organized layout. The project demonstrates UI structuring, table-based layouts, image placement, styling, and content formatting—ideal for beginners learning front-end development essentials.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Fashion_Store_Web_Page_HC",
   },
@@ -318,7 +318,7 @@ const Items = [
     title: "Chef’s Hotel – Static Luxury Hotel Webpage",
     description:
       "This project is a beautifully designed static hotel webpage created using HTML and CSS. It showcases a luxury hotel with an elegant landing section, detailed room options, pricing tables, and a call-to-action for booking. The layout highlights strong UI structure, table formatting, typography, and visual design—ideal for beginners showcasing their front-end development skills.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Chef-s_Hotel_Web_Page_HC",
   },
@@ -349,7 +349,7 @@ const Items = [
     title: "Foodie – Online Food Delivery Webpage",
     description:
       "This project is a static food-delivery themed webpage built with HTML and CSS. It highlights popular restaurants in Delhi, showcases trending dishes, displays food rankings, and includes informational sections about Delhi’s food culture. The layout combines images, tables, and structured content to create a visually appealing and beginner-friendly front-end design.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Foodie_platform_Web_Page_HC",
   },
@@ -379,7 +379,7 @@ const Items = [
     title: "Course Syllabus Webpage",
     description:
       "This project is a structured and educational course syllabus webpage built using HTML and CSS. It includes a professional header with navigation, an introductory section, a visual HTML preview image, a complete course overview, and a detailed weekly schedule. The layout demonstrates clean structuring, table formatting, use of semantic tags, and basic responsive alignment—perfect for beginners practicing front-end development.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Course_Syllabus_Web_Page_HC",
   },
@@ -411,7 +411,7 @@ const Items = [
     title: "Hospital Webpage",
     description:
       "This project is a static hospital management webpage built using HTML and CSS. It presents an overview of an Hospital, including its services, achievements, approved doctors, improvement ideas, and daily patient recovery statistics. The design uses clean layouts, structured tables, smooth navigation, and accessible content formatting, making it a great front-end practice project.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Hospital_Webpage_HC",
   },
@@ -438,7 +438,7 @@ const Items = [
       "HTML",
       "CSS",
     ],
-    title: "Cafe Website",
+    title: "htmlcss",
     description:
       "This project is a simple, clean, and well-structured cafe website built using HTML and CSS. It presents a modern homepage, a menu section with images, an about section, and contact details—all wrapped in a clean layout suitable for small businesses or portfolio demonstration. The project showcases basic web design structure, navigation design, responsive section layouts, and content organization.",
     category: "personal",
@@ -473,7 +473,7 @@ const Items = [
     title: "My Fitness Tips – Health & Workout Webpage",
     description:
       "This project is a structured and beginner-friendly fitness webpage built using HTML and CSS. It includes a welcoming hero section, an introduction to the platform, detailed workout routines, fitness equipment information, and helpful fitness tips for beginners. The design is clear, easy to navigate, and ideal for showcasing front-end skills related to layout, typography, table formatting, structured content, and responsive-friendly sections.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Get_Fit_Web_Page_HC",
   },
@@ -503,7 +503,7 @@ const Items = [
     title: "Interactive Profile Card",
     description:
       "This project is a modern, visually appealing profile card built using HTML, CSS, and JavaScript. It displays a user avatar, name, bio, and a theme label while dynamically updating the card’s content and appearance using JavaScript. The card includes a fun “theme switch” style effect, transforming the card into a vibrant, playful design mode. This project is great for beginners learning DOM manipulation, styling, and interactive UI components.",
-    category: "personal",
+    category: "javascript",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Interactive_Profile_Card_JS",
   },
@@ -535,7 +535,7 @@ const Items = [
     title: "Interactive JavaScript Quiz Form",
     description:
       "This project is an interactive quiz application built using HTML, CSS, and JavaScript. It presents a 3-question multiple-choice quiz on JavaScript basics and includes dynamic hint toggles, form validation, score calculation, and responsive visual feedback. The clean UI, structured layout, and interactive behavior make it an excellent beginner-friendly project for learning DOM manipulation, event handling, and form logic.",
-    category: "personal",
+    category: "javascript",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Interactive_Quiz_Form_JS",
   },
@@ -567,7 +567,7 @@ const Items = [
     title: "Dynamic Bookmark Manager",
     description:
       "This project is a fully interactive Bookmark Manager built with HTML, CSS, and JavaScript. It allows users to quickly add, display, and delete bookmarks in real time without reloading the page. With a clean UI and smooth interactions, this project demonstrates DOM manipulation, event handling, form validation, and event delegation",
-    category: "personal",
+    category: "javascript",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Dynamic_Bookmark_Manager_JS",
   },
@@ -599,7 +599,7 @@ const Items = [
     title: "Persistent Product Wishlist",
     description:
       "This project is a fully interactive Product Wishlist Manager built using HTML, CSS, and JavaScript with LocalStorage. It allows users to add products (name, price, and image), display them in a clean card layout, and delete them when needed. The key feature of this project is data persistence, meaning all wishlist items remain saved even after the page is refreshed—thanks to LocalStorage. This makes it a perfect project for practicing DOM manipulation, data storage, event delegation, and dynamic UI rendering.",
-    category: "personal",
+    category: "javascript",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Persistent_Notes_App_JS",
   },
@@ -633,7 +633,7 @@ const Items = [
     title: "Smart Task Tracker",
     description:
       "The Smart Task Tracker is a feature-rich task-management web app built using HTML, CSS, and JavaScript with LocalStorage persistence. It allows users to create tasks, assign categories, mark tasks as completed, delete them, and automatically save everything in the browser—even after refreshing the page. This project demonstrates core concepts of DOM manipulation, event delegation, and real-world application behavior through persistent data storage and interactive UI updates.",
-    category: "personal",
+    category: "javascript",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Smart_Task_Tracker_JS",
   },
@@ -668,7 +668,7 @@ const Items = [
     title: "Interactive Job Application Form with Dynamic Tabs",
     description:
       "This project is a fully interactive, multi-step Job Application Form built using React. It guides users through a structured 3-step form process—Personal Information, Experience, and Review & Submit—using a tabbed UI with validation, navigation controls, and a polished user experience. Each step validates its fields before allowing the user to move forward, ensuring clean data collection and improved usability. The project showcases advanced concepts including dynamic tab navigation, controlled components, multi-stage validation, form state management, conditional rendering, and submission success screens—all wrapped in a clean, responsive UI.",
-    category: "personal",
+    category: "react",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Interactive_Job_Application_Form_with_Dynamic_Tabs_React",
   },
@@ -705,7 +705,7 @@ const Items = [
     title: "Modern React Portfolio Website",
     description:
       "This project is a fully responsive and professionally designed portfolio website built using React and modern frontend best practices. It includes multiple reusable components, dynamic styling, modular sections, and a polished UI created with a custom CSS design system. The website serves as a personal brand presence—showcasing your skills, projects, biography, and contact information—while maintaining a clean, elegant, and accessible layout optimized for all screen sizes.",
-    category: "personal",
+    category: "react",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/portfolio_react",
   },
@@ -740,7 +740,7 @@ const Items = [
     title: "2048 Game",
     description:
       "This project is a fully functional 2048 puzzle game built using React. It recreates the classic sliding tile game where players merge identical numbers to reach 2048, featuring smooth tile movement, merging logic, keyboard controls, and full game-over detection. The game grid updates dynamically using React state, offering a responsive and interactive experience. A Restart button is included for quick replayability.",
-    category: "personal",
+    category: "react",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/2048_Game_React",
   },
@@ -772,7 +772,7 @@ const Items = [
     title: "Tic-Tac-Toe game",
     description:
       "This project is a fully interactive Tic-Tac-Toe game built using React. It features a responsive 3×3 game board, player turn tracking, winner detection, and full move-history functionality—allowing players to “time travel” to any previous move. The UI is clean, minimal, and optimized for quick and intuitive gameplay. The project demonstrates core React concepts such as state management, props, immutability, and component-based architecture.",
-    category: "personal",
+    category: "react",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Tic_tac_toe_React",
   },
@@ -816,7 +816,7 @@ const Items = [
     title: "My Web Portfolio",
     description:
       "MyWebPortfolio is a modern, interactive, and performance-optimized developer portfolio built using React and Tailwind CSS. It showcases your skills, experience, and professional projects with smooth animations, category filters, dynamic routing, and Lottie-based visuals. The website delivers a premium UI/UX through scroll-triggered animations, responsive layouts, and a clean dark theme. It also supports project detail pages, a fully functional contact form via EmailJS, and a modular component-based structure following best React practices.",
-    category: "personal",
+    category: "react",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/portfolio2",
   },
@@ -858,7 +858,7 @@ const Items = [
     title: "Golden Frames",
     description:
       "Golden Frames is a MERN-stack photo-memory sharing app where users can post memorable moments with a title, message, tags, and an image. Users can interact with posts through likes, updates, and deletion.The app uses Redux Toolkit for global state management, Axios for API communication, Material-UI for UI components, MongoDB Atlas for cloud storage, and Express.js for building RESTful backend APIs. All posts are stored in MongoDB and are rendered dynamically on the UI with smooth re-renders and state updates.",
-    category: "personal",
+    category: "mern",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/golden_frames_v2_MERN",
   },
@@ -902,7 +902,7 @@ const Items = [
     title: "AI_MagicLens",
     description:
       "Imagify is a full-stack AI Image Generation and Management platform built with the MERN stack. It allows users to generate AI-powered images, manage galleries, buy credits, download results, and securely store user data. The project includes a complete authentication system, credit-based usage limits, a responsive modern UI, and integration with the ClipDrop AI API for high-quality images.",
-    category: "personal",
+    category: "mern",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/AI_MagicLens",
   },
@@ -963,7 +963,7 @@ const Items = [
     title: "TutorX",
     description:
       "TutorX is a full-fledged MERN stack online learning platform where students can explore, purchase, and learn from structured courses, while instructors can create and manage educational content. The platform integrates powerful features like secure authentication, cloud media handling, real payment gateway integration, analytics dashboards, and a modern, responsive UI optimized for learning. It uses Cloudinary for storing course media, Razorpay for secure payments, and MongoDB for managing all user & course data. The architecture follows industry standards with modular routing, controllers, middleware, and reusable services—making it scalable and production-ready.",
-    category: "personal",
+    category: "mern",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/TutorX",
   },
@@ -1008,7 +1008,7 @@ const Items = [
     title: "flipkart_clone",
     description:
       "A production-grade Flipkart-style e-commerce application built using the MERN stack, complete with a full admin dashboard, Paytm payment gateway, advanced product filtering, and complete user shopping features. This project replicates real-world e-commerce flows — browsing, wishlisting, cart management, checkout, payment, order tracking, admin product management, and more.",
-    category: "personal",
+    category: "mern",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/flipkart_clone",
   },
