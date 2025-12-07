@@ -1,10 +1,10 @@
 const Items = [
   {
     id: 1,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765105387/inception-poster_ym171z.jpg",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699548/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-2_p3chy5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765105387/inception-poster_ym171z.jpg",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765106022/Screenshot_2025-12-07_164105_jhc1rs.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699706/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-3_uhtwa6.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682699802/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-4_p404nm.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682700118/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-5_mksj57.png",
@@ -32,7 +32,7 @@ const Items = [
   },
   {
     id: 2,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682701479/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-4_kmaye9.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765106022/Screenshot_2025-12-07_164105_jhc1rs.png",
     img: [
       "https://res.cloudinary.com/du541igfh/image/upload/v1682701456/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-1_jppjdj.png",
       "https://res.cloudinary.com/du541igfh/image/upload/v1682701463/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-2_ptr4lg.png",
