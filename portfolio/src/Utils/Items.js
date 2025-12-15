@@ -108,9 +108,9 @@ const Items = [
   },
   {
     id: 5,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/Personal_Profile_Card_ij7fao.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797467/Personal_Profile_Card_ij7fao.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/Personal_Profile_Card_ij7fao.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797467/Personal_Profile_Card_ij7fao.png",
     ],
     features: [
       "Clean and Modern Card Layout",
@@ -162,10 +162,10 @@ const Items = [
   },
   {
     id: 7,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Profile_Card_1_gimgjs.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796862/Interactive_Profile_Card_1_gimgjs.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Profile_Card_1_gimgjs.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369297/Interactive_Profile_Card_2_q9vanb.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796862/Interactive_Profile_Card_1_gimgjs.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796936/Interactive_Profile_Card_2_q9vanb.png",
     ],
     features: [
       "Centered Profile Card Layout",
@@ -189,10 +189,10 @@ const Items = [
   },
   {
     id: 8,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_1_clbb1v.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797638/Responsive_Card_Layout_2_ngcxug.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_1_clbb1v.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_2_ngcxug.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797547/Responsive_Card_Layout_1_clbb1v.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797638/Responsive_Card_Layout_2_ngcxug.png",
     ],
     features: [
       "Mobile-First Design",
@@ -409,9 +409,9 @@ const Items = [
   },
   {
     id: 16,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369298/Interactive_Profile_Card_JS_hi0zld.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797013/Interactive_Profile_Card_JS_hi0zld.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369298/Interactive_Profile_Card_JS_hi0zld.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797013/Interactive_Profile_Card_JS_hi0zld.png",
     ],
     features: [
       "Clean & Modern Profile Card UI",
@@ -464,12 +464,12 @@ const Items = [
   },
   {
     id: 18,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369332/Dynamic_Bookmark_Manager_1_v7nu5z.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796554/Dynamic_Bookmark_Manager_1_v7nu5z.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369332/Dynamic_Bookmark_Manager_1_v7nu5z.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369337/Dynamic_Bookmark_Manager_2_mazm19.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Dynamic_Bookmark_Manager_3_ceb1b5.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369340/Dynamic_Bookmark_Manager_4_djjewt.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796554/Dynamic_Bookmark_Manager_1_v7nu5z.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796625/Dynamic_Bookmark_Manager_2_mazm19.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796695/Dynamic_Bookmark_Manager_3_ceb1b5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796778/Dynamic_Bookmark_Manager_4_djjewt.png",
     ],
     features: [
       "Add Bookmarks Dynamically",
@@ -494,12 +494,12 @@ const Items = [
   },
   {
     id: 19,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_2_g5joew.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797191/Persistent_Product_Wishlist_2_g5joew.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369335/Persistent_Product_Wishlist_1_ft3d8k.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_2_g5joew.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_3_mbh5up.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369343/Persistent_Product_Wishlist_4_ahlhbq.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797116/Persistent_Product_Wishlist_1_ft3d8k.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797191/Persistent_Product_Wishlist_2_g5joew.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797287/Persistent_Product_Wishlist_3_mbh5up.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797387/Persistent_Product_Wishlist_4_ahlhbq.png",
     ],
     features: [
       "Add Products to Wishlist Dynamically",
@@ -524,11 +524,11 @@ const Items = [
   },
   {
     id: 20,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369355/Smart_Task_Tracker_1_d4tsoh.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797722/Smart_Task_Tracker_1_d4tsoh.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369355/Smart_Task_Tracker_1_d4tsoh.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369356/Smart_Task_Tracker_2_pb79dj.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369361/Smart_Task_Tracker_3_ycklnq.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797722/Smart_Task_Tracker_1_d4tsoh.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797847/Smart_Task_Tracker_2_pb79dj.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765797933/Smart_Task_Tracker_3_ycklnq.png",
     ],
     features: [
       "Add Tasks with Categories",
@@ -626,11 +626,11 @@ const Items = [
   },
   {
     id: 23,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369288/2048_Game_1_d3ghc5.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796233/2048_Game_1_d3ghc5.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369288/2048_Game_1_d3ghc5.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369289/2048_Game_2_o4rqzx.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369292/2048_Game_3_reg1wm.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796233/2048_Game_1_d3ghc5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796403/2048_Game_2_o4rqzx.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765796474/2048_Game_3_reg1wm.png",
     ],
     features: [
       "Fully Playable 2048 Mechanics",
@@ -658,10 +658,10 @@ const Items = [
   },
   {
     id: 24,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Tic_tac_toe_1_iek0z2.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765798011/Tic_tac_toe_1_iek0z2.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Tic_tac_toe_1_iek0z2.png",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369368/Tic_tac_toe_2_t9r8kg.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765798011/Tic_tac_toe_1_iek0z2.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765798105/Tic_tac_toe_2_t9r8kg.png",
       "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369369/Tic_tac_toe_3_rft6ob.png",
     ],
     features: [
@@ -687,7 +687,7 @@ const Items = [
   },
   {
     id: 25,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_1_qv6xnn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_2_epqwuc.png",
     img: [
       "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_1_qv6xnn.png",
       "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_2_epqwuc.png",
