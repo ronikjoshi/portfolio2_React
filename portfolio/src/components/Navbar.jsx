@@ -10,24 +10,22 @@ import { MdWork } from "react-icons/md";
 
 // Reusable Resume button
 const ResumeButton = () => (
-      <a
-      href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 px-5 py-2.5 text-lg font-semibold bg-orange-500 rounded-md text-white hover:bg-orange-600 transition"
-    >
-      Resume <FaDownload />
-    </a>
+  <a
+    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-5 py-2.5 text-lg font-semibold bg-orange-500 rounded-md text-white hover:bg-orange-600 transition"
+  >
+    Resume <FaDownload />
+  </a>
 );
 
 export default function Navbar() {
-  // ONLY Home + Project
   const navLinks = [
     { title: "Home", link: "/", icon: <FaHome /> },
     { title: "Project", link: "/project", icon: <MdWork /> },
   ];
 
-  /* Drawer State */
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => setIsOpen((v) => !v);
 
@@ -38,7 +36,6 @@ export default function Navbar() {
   useEffect(() => {
     const onScroll = () => {
       const y = window.scrollY;
-
       if (y > lastY.current && y > 60) {
         setHidden(true);
       } else {
@@ -58,7 +55,6 @@ export default function Navbar() {
       }`}
     >
       <div className="w-full flex items-center justify-between px-4 md:px-20 py-3">
-
         {/* Logo */}
         <Link to="/">
           <h1 className="text-2xl text-orange-500 font-lobster pl-6">
@@ -66,7 +62,7 @@ export default function Navbar() {
           </h1>
         </Link>
 
-        {/* Desktop Menu (Aligned Right) */}
+        {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 ml-auto pr-4 md:pr-8">
           {navLinks.map((item) => (
             <NavLink
@@ -80,9 +76,7 @@ export default function Navbar() {
             >
               {item.title}
             </NavLink>
-
           ))}
-
           <ResumeButton />
         </nav>
 
@@ -95,12 +89,14 @@ export default function Navbar() {
           <RiMenu3Fill />
         </button>
 
-        {/* Mobile Drawer */}
+        {/* ✅ Mobile Drawer (BACKGROUND FIXED) */}
         <Drawer
           open={isOpen}
           onClose={toggleDrawer}
           direction="right"
-          className="bg-neutral-900 text-white p-5 flex flex-col justify-between"
+          overlayColor="rgba(0, 0, 0, 0.75)"   // 🔥 FIX 1: dark overlay
+          overlayClassName="bg-black"         // 🔥 FIX 2: prevent white flash
+          className="bg-[#1A1A1A] text-white p-5 flex flex-col justify-between"
         >
           {/* Close Button */}
           <button
@@ -136,7 +132,7 @@ export default function Navbar() {
           </ul>
 
           <p className="text-center text-neutral-500 text-sm mt-10">
-            © 2023 Gilbert Hutapea. All Rights Reserved.
+            © 2023 Ronik Joshi. All Rights Reserved.
           </p>
         </Drawer>
       </div>

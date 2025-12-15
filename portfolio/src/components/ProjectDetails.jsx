@@ -7,6 +7,7 @@ import SecondaryBtn from "./SecondaryBtn";
 import { FaLink, FaCode } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import placeholderImage from "../assets/placeholder.jpg";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/slick-custom.css";
@@ -20,19 +21,20 @@ const ProjectDetails = () => {
     setItem(filtered);
   }, [id]);
 
+  // ✅ Same responsive behavior as working reference
   const settings = {
     dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
+    slidesToShow: 2,        // Desktop
     slidesToScroll: 1,
-    slidesToShow: 2,
     autoplay: true,
     pauseOnHover: true,
-    adaptiveHeight: false, // 🔒 keep slider height stable
+    adaptiveHeight: false,
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 1000,   // Mobile
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -41,26 +43,28 @@ const ProjectDetails = () => {
     ],
   };
 
+  if (!item) return null;
+
   return (
     <div className="max-w-6xl mx-auto py-16 px-4 text-neutral-300">
       {/* Title */}
       <h1 className="text-center text-4xl font-semibold text-white mb-10">
-        {item?.title}
+        {item.title}
       </h1>
 
       {/* Image Slider */}
       <Slider {...settings}>
-        {item?.img?.map((image, index) => (
+        {item.img?.map((image, index) => (
           <div key={index} className="mt-6 px-3">
             <div className="rounded-lg overflow-hidden shadow-lg bg-[#1e1e1e] border-2 border-primary">
 
-              {/* 🔒 FIXED HEIGHT CONTAINER (DESIGN DECISION) */}
-              <div className="w-full h-[262px] bg-[#181818] flex items-start justify-center p-3">
+              {/* 🔽 Further reduced height & padding */}
+              <div className="w-full h-[244px] sm:h-[246px] bg-[#181818] flex items-center justify-center px-3 py-1.5">
                 <LazyLoadImage
                   src={image}
                   placeholderSrc={placeholderImage}
                   alt={`Project screenshot ${index + 1}`}
-                  className="w-full h-full object-contain object-top"
+                  className="w-full h-full object-contain"
                 />
               </div>
 
@@ -71,15 +75,17 @@ const ProjectDetails = () => {
 
       {/* Description */}
       <p className="mt-10 text-lg leading-relaxed">
-        <span className="font-semibold text-white text-xl">Description: </span>
-        {item?.description}
+        <span className="font-semibold text-white text-xl">
+          Description:
+        </span>{" "}
+        {item.description}
       </p>
 
       {/* Features */}
       <div className="mt-10">
         <h2 className="text-2xl font-semibold text-white mb-4">Features:</h2>
         <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
-          {item?.features?.map((feature, index) => (
+          {item.features?.map((feature, index) => (
             <li key={index} className="text-neutral-300">
               {feature}
             </li>
@@ -93,7 +99,7 @@ const ProjectDetails = () => {
           Tools & Technologies:
         </h2>
         <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
-          {item?.technologies?.map((tech, index) => (
+          {item.technologies?.map((tech, index) => (
             <li key={index} className="text-neutral-300">
               {tech}
             </li>
@@ -103,14 +109,14 @@ const ProjectDetails = () => {
 
       {/* Buttons */}
       <div className="flex items-center gap-4 mt-12">
-        <a href={item?.liveLink} target="_blank" rel="noopener noreferrer">
+        <a href={item.liveLink} target="_blank" rel="noopener noreferrer">
           <PrimaryBtn>
             <span>Visit Now</span>
             <FaLink />
           </PrimaryBtn>
         </a>
 
-        <a href={item?.codeLink} target="_blank" rel="noopener noreferrer">
+        <a href={item.codeLink} target="_blank" rel="noopener noreferrer">
           <SecondaryBtn>
             <span>Source Code</span>
             <FaCode />

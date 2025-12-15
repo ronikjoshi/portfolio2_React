@@ -12,8 +12,12 @@ const Projects = () => {
 
   const [active, setActive] = useState("all");
 
-  // Scroll animation trigger
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+  // 👇 Intersection observer (ONLY used on home page)
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1, // more forgiving on mobile
+  });
+
   const [animateSection, setAnimateSection] = useState(false);
 
   useEffect(() => {
@@ -42,10 +46,16 @@ const Projects = () => {
 
   return (
     <motion.div
-      ref={ref}
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={animateSection ? { opacity: 1, scale: 1 } : {}}
-      transition={{ duration: 1, ease: "easeOut" }}
+      ref={isHome ? ref : null}
+      initial={isHome ? { opacity: 0, scale: 0.95 } : false}
+      animate={
+        isHome
+          ? animateSection
+            ? { opacity: 1, scale: 1 }
+            : {}
+          : { opacity: 1, scale: 1 }
+      }
+      transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="max-w-6xl mx-auto py-12 px-4">
         {/* Heading */}
@@ -81,12 +91,12 @@ const Projects = () => {
             {visibleItems.map((item) => (
               <motion.div
                 key={item.id}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3 }}
                 className="relative rounded-lg overflow-hidden bg-[#313131] shadow-lg hover:shadow-primary transition-shadow duration-300"
               >
-                {/* Screenshot container (NO cropping) */}
+                {/* Screenshot */}
                 <div className="aspect-[16/9] w-full bg-[#1e1e1e] flex items-center justify-center overflow-hidden">
                   <img
                     src={item.mainImage}
