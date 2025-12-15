@@ -13,7 +13,7 @@ import "../styles/slick-custom.css";
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  const [item, setItem] = useState();
+  const [item, setItem] = useState(null);
 
   useEffect(() => {
     const filtered = Items.find((item) => item.id === parseInt(id));
@@ -29,6 +29,7 @@ const ProjectDetails = () => {
     slidesToShow: 2,
     autoplay: true,
     pauseOnHover: true,
+    adaptiveHeight: false, // 🔒 keep slider height stable
     responsive: [
       {
         breakpoint: 1000,
@@ -47,20 +48,22 @@ const ProjectDetails = () => {
         {item?.title}
       </h1>
 
-      {/* Image Slider (consistent height, no cropping) */}
+      {/* Image Slider */}
       <Slider {...settings}>
         {item?.img?.map((image, index) => (
           <div key={index} className="mt-6 px-3">
             <div className="rounded-lg overflow-hidden shadow-lg bg-[#1e1e1e] border-2 border-primary">
-              {/* Screenshot container */}
-              <div className="aspect-[16/9] w-full bg-[#181818] flex items-start justify-center p-2 shadow-inner">
+
+              {/* 🔒 FIXED HEIGHT CONTAINER (DESIGN DECISION) */}
+              <div className="w-full h-[262px] bg-[#181818] flex items-start justify-center p-3">
                 <LazyLoadImage
-                  placeholderSrc={placeholderImage}
                   src={image}
+                  placeholderSrc={placeholderImage}
                   alt={`Project screenshot ${index + 1}`}
                   className="w-full h-full object-contain object-top"
                 />
               </div>
+
             </div>
           </div>
         ))}
