@@ -42,22 +42,25 @@ const ProjectDetails = () => {
 
   return (
     <div className="max-w-6xl mx-auto py-16 px-4 text-neutral-300">
-
       {/* Title */}
       <h1 className="text-center text-4xl font-semibold text-white mb-10">
         {item?.title}
       </h1>
 
-      {/* Image Slider */}
+      {/* Image Slider (consistent height, no cropping) */}
       <Slider {...settings}>
         {item?.img?.map((image, index) => (
           <div key={index} className="mt-6 px-3">
-            <div className="rounded-lg overflow-hidden shadow-lg bg-[#313131] border-2 border-primary">
-              <LazyLoadImage
-                placeholderSrc={placeholderImage}
-                src={image}
-                className="w-full h-56 md:h-72 object-cover"
-              />
+            <div className="rounded-lg overflow-hidden shadow-lg bg-[#1e1e1e] border-2 border-primary">
+              {/* Screenshot container */}
+              <div className="aspect-[16/9] w-full bg-[#181818] flex items-start justify-center p-2 shadow-inner">
+                <LazyLoadImage
+                  placeholderSrc={placeholderImage}
+                  src={image}
+                  alt={`Project screenshot ${index + 1}`}
+                  className="w-full h-full object-contain object-top"
+                />
+              </div>
             </div>
           </div>
         ))}
@@ -97,14 +100,14 @@ const ProjectDetails = () => {
 
       {/* Buttons */}
       <div className="flex items-center gap-4 mt-12">
-        <a href={item?.liveLink} target="blank">
+        <a href={item?.liveLink} target="_blank" rel="noopener noreferrer">
           <PrimaryBtn>
             <span>Visit Now</span>
             <FaLink />
           </PrimaryBtn>
         </a>
 
-        <a href={item?.codeLink} target="blank">
+        <a href={item?.codeLink} target="_blank" rel="noopener noreferrer">
           <SecondaryBtn>
             <span>Source Code</span>
             <FaCode />

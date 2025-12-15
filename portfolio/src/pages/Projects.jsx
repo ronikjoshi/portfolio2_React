@@ -32,13 +32,13 @@ const Projects = () => {
   }, [filteredItems, isHome]);
 
   const categories = [
-  { key: "all", label: "All" },
-  { key: "mern", label: "MERN" },
-  { key: "react", label: "React" },
-  { key: "javascript", label: "JavaScript" },
-  { key: "htmlcss", label: "HTML + CSS" },
-  { key: "html", label: "HTML" },
-];
+    { key: "all", label: "All" },
+    { key: "mern", label: "MERN" },
+    { key: "react", label: "React" },
+    { key: "javascript", label: "JavaScript" },
+    { key: "htmlcss", label: "HTML + CSS" },
+    { key: "html", label: "HTML" },
+  ];
 
   return (
     <motion.div
@@ -48,7 +48,6 @@ const Projects = () => {
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <div className="max-w-6xl mx-auto py-12 px-4">
-
         {/* Heading */}
         <div className="mb-12 text-center">
           <h3 className="text-neutral-300">Some of my recent Projects</h3>
@@ -65,9 +64,11 @@ const Projects = () => {
               <button
                 key={cat.key}
                 className={`px-4 py-1.5 text-sm rounded-md border-2 transition-all duration-300
-                  ${active === cat.key
-                    ? "bg-primary text-white border-primary"
-                    : "bg-transparent text-white border-primary hover:bg-primary"}`}
+                  ${
+                    active === cat.key
+                      ? "bg-primary text-white border-primary"
+                      : "bg-transparent text-white border-primary hover:bg-primary"
+                  }`}
                 onClick={() => setActive(cat.key)}
               >
                 {cat.label}
@@ -85,11 +86,14 @@ const Projects = () => {
                 transition={{ duration: 0.3 }}
                 className="relative rounded-lg overflow-hidden bg-[#313131] shadow-lg hover:shadow-primary transition-shadow duration-300"
               >
-                <img
-                  src={item.mainImage}
-                  alt={item.title}
-                  className="w-full h-56 object-cover"
-                />
+                {/* Screenshot container (NO cropping) */}
+                <div className="aspect-[16/9] w-full bg-[#1e1e1e] flex items-center justify-center overflow-hidden">
+                  <img
+                    src={item.mainImage}
+                    alt={item.title}
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-4 text-center">

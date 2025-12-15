@@ -1,15 +1,9 @@
 const Items = [
   {
     id: 1,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765105387/inception-poster_ym171z.jpg",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369315/My_Favorite_Recipe_Page_fgtgdf.png",
     img: [
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765105387/inception-poster_ym171z.jpg",
-      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765106022/Screenshot_2025-12-07_164105_jhc1rs.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699706/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-3_uhtwa6.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699802/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-4_p404nm.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682700118/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-5_mksj57.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682700238/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-6_jfndeo.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682700374/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-7_uhh453.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369315/My_Favorite_Recipe_Page_fgtgdf.png",
     ],
     features: [
       "Basic HTML Structure",
@@ -32,19 +26,11 @@ const Items = [
   },
   {
     id: 2,
-    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765106022/Screenshot_2025-12-07_164105_jhc1rs.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369314/My_Favorite_Movie_Page_1_kcwt8m.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701456/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-1_jppjdj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701463/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-2_ptr4lg.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701467/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-3_gjle1m.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701479/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-4_kmaye9.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701489/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-5_nuhniv.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701492/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-6_rkvmhd.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701496/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-7_xjm4pm.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701499/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-8_dj0qoq.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701502/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-9_d1h5a0.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701505/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-10_kbbkd4.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701506/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-11_mmspfs.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369314/My_Favorite_Movie_Page_1_kcwt8m.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369316/My_Favorite_Movie_Page_2_tyxmey.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369319/My_Favorite_Movie_Page_3_tpug7c.png",
     ],
     features: [
       "Movie Title & Description",
@@ -68,18 +54,10 @@ const Items = [
   },
   {
     id: 3,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369353/Restaurant_Webpage_1_e7qhk5.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312777/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-2_ar1fex.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312780/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-3_qpebgb.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312777/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-4_yadwtg.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312780/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-5_xvx0vj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312773/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-6_aaq4yf.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312772/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-7_twij3j.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312773/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-8_njclct.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312774/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-9_zg1jfe.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312772/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-10_yag7bj.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369353/Restaurant_Webpage_1_e7qhk5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369356/Restaurant_Webpage_2_x37vid.png",
     ],
     features: [
       "Semantic Navigation Bar",
@@ -104,26 +82,9 @@ const Items = [
   },
   {
     id: 4,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369340/Event_Registration_Form_wy06fv.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-1_gywmlj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-3_ktppfh.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-4_g9pcqp.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-5_cugdqq.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-6_d550ha.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-7_u2td2u.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-8_tt0tqg.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-9_thcxyv.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-10_wwmqty.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-11_issyrd.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-12_visvli.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-13_dqy6wg.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-14_kvaem7.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772432/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-15_pzdxsu.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772431/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-16_ven89o.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772432/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-17_wjwedp.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772432/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-18_zpsewd.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369340/Event_Registration_Form_wy06fv.png",
     ],
     features: [
       "User Information Fields",
@@ -147,13 +108,9 @@ const Items = [
   },
   {
     id: 5,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/Personal_Profile_Card_ij7fao.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-2_uktrxk.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-3_s1js9i.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-4_sb9ga6.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869748/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-5_wrxlr7.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/Personal_Profile_Card_ij7fao.png",
     ],
     features: [
       "Clean and Modern Card Layout",
@@ -176,11 +133,12 @@ const Items = [
   },
   {
     id: 6,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369320/Coffee_Shop_Menu_1_nhx32l.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-1_gpiiro.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-3_sk2hyn.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369320/Coffee_Shop_Menu_1_nhx32l.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369314/Coffee_Shop_Menu_2_g9medj.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369311/Coffee_Shop_Menu_3_d6tvqr.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369320/Coffee_Shop_Menu_4_i8k8u9.png",
     ],
     features: [
       "Hero Banner Section",
@@ -204,15 +162,10 @@ const Items = [
   },
   {
     id: 7,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Profile_Card_1_gimgjs.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-1_gqero4.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-2_ukjdh2.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-4_btevir.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-5_oakjx2.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944092/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-6_pqefy9.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-7_wfrvb7.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Profile_Card_1_gimgjs.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369297/Interactive_Profile_Card_2_q9vanb.png",
     ],
     features: [
       "Centered Profile Card Layout",
@@ -236,14 +189,10 @@ const Items = [
   },
   {
     id: 8,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_1_clbb1v.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_1_clbb1v.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/Responsive_Card_Layout_2_ngcxug.png",
     ],
     features: [
       "Mobile-First Design",
@@ -265,14 +214,11 @@ const Items = [
   },
   {
     id: 9,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Fashion_Store_1_gov01m.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Fashion_Store_1_gov01m.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369347/Fashion_Store_2_yuva7t.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369351/Fashion_Store_3_dxte7c.png",
     ],
     features: [
       "Product Categories Section",
@@ -295,14 +241,11 @@ const Items = [
   },
   {
     id: 10,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369300/Chef_s_Hotel_1_blqkjx.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369300/Chef_s_Hotel_1_blqkjx.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369304/Chef_s_Hotel_2_bi851j.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369325/Chef_s_Hotel_3_ni8dig.png",
     ],
     features: [
       "Elegant Landing Section",
@@ -324,14 +267,12 @@ const Items = [
   },
   {
     id: 11,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369375/Foodie_1_sx2ekn.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369375/Foodie_1_sx2ekn.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369380/Foodie_2_emdlwc.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369362/Foodie_3_fzs0tc.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369369/Foodie_4_ymm59t.png",
     ],
     features: [
       "Clean Header Section",
@@ -355,14 +296,11 @@ const Items = [
   },
   {
     id: 12,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369337/course_syllabus_page_1_rexirn.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369337/course_syllabus_page_1_rexirn.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369339/course_syllabus_page_2_y8qrn3.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369332/course_syllabus_page_3_yfqho5.png",
     ],
     features: [
       "Professional Header & Navigation",
@@ -385,14 +323,11 @@ const Items = [
   },
   {
     id: 13,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369379/Hospital_Webpage_2_mh8q53.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369377/Hospital_Webpage_1_pfqvnz.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369379/Hospital_Webpage_2_mh8q53.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369290/Hospital_Webpage_3_i8cnpa.png",
     ],
     features: [
       "Clean Header & Navigation Bar",
@@ -417,14 +352,11 @@ const Items = [
   },
   {
     id: 14,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369305/Beans_and_Brews_Cafe_2_jvyrtc.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369302/Beans_and_Brews_Cafe_1_z50bra.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369305/Beans_and_Brews_Cafe_2_jvyrtc.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369298/Beans_and_Brews_Cafe_3_iaumbu.png",
     ],
     features: [
       "Simple & Clean Navigation Bar",
@@ -438,23 +370,21 @@ const Items = [
       "HTML",
       "CSS",
     ],
-    title: "htmlcss",
+    title: "Beans and Brews Cafe",
     description:
       "This project is a simple, clean, and well-structured cafe website built using HTML and CSS. It presents a modern homepage, a menu section with images, an about section, and contact details—all wrapped in a clean layout suitable for small businesses or portfolio demonstration. The project showcases basic web design structure, navigation design, responsive section layouts, and content organization.",
-    category: "personal",
+    category: "htmlcss",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/Cafe_Web_Page_HC",
   },
   {
     id: 15,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369370/Get_Fit_2_jjqv74.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369368/Get_Fit_1_uf8lfa.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369370/Get_Fit_2_jjqv74.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369371/Get_Fit_3_igujwl.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369371/Get_Fit_4_djinky.png",
     ],
     features: [
       "Hero Section with Welcome Message",
@@ -479,14 +409,9 @@ const Items = [
   },
   {
     id: 16,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369298/Interactive_Profile_Card_JS_hi0zld.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369298/Interactive_Profile_Card_JS_hi0zld.png",
     ],
     features: [
       "Clean & Modern Profile Card UI",
@@ -509,14 +434,12 @@ const Items = [
   },
   {
     id: 17,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369300/Interactive_Quiz_Form_1_nct8tk.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369300/Interactive_Quiz_Form_1_nct8tk.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369301/Interactive_Quiz_Form_2_htqopv.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369303/Interactive_Quiz_Form_3_bnsifj.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369304/Interactive_Quiz_Form_4_xrdkm8.png",
     ],
     features: [
       "Clean and Modern UI",
@@ -541,14 +464,12 @@ const Items = [
   },
   {
     id: 18,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369332/Dynamic_Bookmark_Manager_1_v7nu5z.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369332/Dynamic_Bookmark_Manager_1_v7nu5z.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369337/Dynamic_Bookmark_Manager_2_mazm19.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Dynamic_Bookmark_Manager_3_ceb1b5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369340/Dynamic_Bookmark_Manager_4_djjewt.png",
     ],
     features: [
       "Add Bookmarks Dynamically",
@@ -573,14 +494,12 @@ const Items = [
   },
   {
     id: 19,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_2_g5joew.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369335/Persistent_Product_Wishlist_1_ft3d8k.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_2_g5joew.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369342/Persistent_Product_Wishlist_3_mbh5up.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369343/Persistent_Product_Wishlist_4_ahlhbq.png",
     ],
     features: [
       "Add Products to Wishlist Dynamically",
@@ -605,14 +524,11 @@ const Items = [
   },
   {
     id: 20,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369355/Smart_Task_Tracker_1_d4tsoh.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369355/Smart_Task_Tracker_1_d4tsoh.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369356/Smart_Task_Tracker_2_pb79dj.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369361/Smart_Task_Tracker_3_ycklnq.png",
     ],
     features: [
       "Add Tasks with Categories",
@@ -639,14 +555,13 @@ const Items = [
   },
   {
     id: 21,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369289/Interactive_Forms_with_Dynamic_Tabs_1_et429a.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369289/Interactive_Forms_with_Dynamic_Tabs_1_et429a.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369289/Interactive_Forms_with_Dynamic_Tabs_3_lmm6jl.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Forms_with_Dynamic_Tabs_4_mfator.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369294/Interactive_Forms_with_Dynamic_Tabs_5_tmbsew.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369295/Interactive_Forms_with_Dynamic_Tabs_6_qlmc7d.png",
     ],
     features: [
       "Multi-Step Form with Tabs",
@@ -674,14 +589,14 @@ const Items = [
   },
   {
     id: 22,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369349/First_portfolio_1_ojqcrl.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369349/First_portfolio_1_ojqcrl.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369354/First_portfolio_2_eyua0m.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369378/First_portfolio_3_xzpmrn.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369363/First_portfolio_4_nvwhxa.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369359/First_portfolio_5_jamuug.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369363/First_portfolio_6_zsu8gu.png",
     ],
     features: [
       "Fully Responsive UI",
@@ -711,14 +626,11 @@ const Items = [
   },
   {
     id: 23,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369288/2048_Game_1_d3ghc5.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369288/2048_Game_1_d3ghc5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369289/2048_Game_2_o4rqzx.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369292/2048_Game_3_reg1wm.png",
     ],
     features: [
       "Fully Playable 2048 Mechanics",
@@ -746,14 +658,11 @@ const Items = [
   },
   {
     id: 24,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Tic_tac_toe_1_iek0z2.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369366/Tic_tac_toe_1_iek0z2.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369368/Tic_tac_toe_2_t9r8kg.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369369/Tic_tac_toe_3_rft6ob.png",
     ],
     features: [
       "Fully Functional Tic-Tac-Toe Logic",
@@ -778,14 +687,17 @@ const Items = [
   },
   {
     id: 25,
-    mainImage: "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_1_qv6xnn.png",
     img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033411/Blog%20Portfolio%20Gilbert/Project/shopify/img-2_nko9ic.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033413/Blog%20Portfolio%20Gilbert/Project/shopify/img-3_rnhbr1.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-4_ks8lck.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033409/Blog%20Portfolio%20Gilbert/Project/shopify/img-5_eotroj.png",
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-6_fgpzef.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_1_qv6xnn.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369318/original_portfolio_2_epqwuc.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369320/original_portfolio_3_svstqp.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369322/original_portfolio_4_vwqzz5.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/original_portfolio_5_zqoipo.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369326/original_portfolio_6_lk5bnz.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369344/original_portfolio_7_oxug6c.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369331/original_portfolio_8_iuuafe.png",
+      "https://res.cloudinary.com/dgh3azwdo/image/upload/v1765369341/original_portfolio_9_of8txr.png",
     ],
     features: [
       "Modern & Responsive UI",
