@@ -21,20 +21,19 @@ const ProjectDetails = () => {
     setItem(filtered);
   }, [id]);
 
-  // ✅ Same responsive behavior as working reference
   const settings = {
     dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,        // Desktop
+    slidesToShow: 2, // desktop
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: true,
     adaptiveHeight: false,
     responsive: [
       {
-        breakpoint: 1000,   // Mobile
+        breakpoint: 1000, // mobile
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -46,20 +45,18 @@ const ProjectDetails = () => {
   if (!item) return null;
 
   return (
-    <div className="max-w-6xl mx-auto py-16 px-4 text-neutral-300">
+    <div className="max-w-6xl mx-auto py-12 md:py-16 px-4 text-neutral-300">
       {/* Title */}
-      <h1 className="text-center text-4xl font-semibold text-white mb-10">
+      <h1 className="text-center text-2xl md:text-4xl font-semibold text-white mb-8 md:mb-10">
         {item.title}
       </h1>
 
       {/* Image Slider */}
       <Slider {...settings}>
         {item.img?.map((image, index) => (
-          <div key={index} className="mt-6 px-3">
+          <div key={index} className="mt-4 md:mt-6 px-2 md:px-3">
             <div className="rounded-lg overflow-hidden shadow-lg bg-[#1e1e1e] border-2 border-primary">
-
-              {/* 🔽 Further reduced height & padding */}
-              <div className="w-full h-[244px] sm:h-[246px] bg-[#181818] flex items-center justify-center px-3 py-1.5">
+              <div className="w-full h-[220px] sm:h-[240px] md:h-[246px] bg-[#181818] flex items-center justify-center px-3 py-1.5">
                 <LazyLoadImage
                   src={image}
                   placeholderSrc={placeholderImage}
@@ -67,24 +64,25 @@ const ProjectDetails = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-
             </div>
           </div>
         ))}
       </Slider>
 
       {/* Description */}
-      <p className="mt-10 text-lg leading-relaxed">
-        <span className="font-semibold text-white text-xl">
+      <p className="mt-8 md:mt-10 text-base md:text-lg leading-relaxed">
+        <span className="font-semibold text-white text-lg md:text-xl">
           Description:
         </span>{" "}
         {item.description}
       </p>
 
       {/* Features */}
-      <div className="mt-10">
-        <h2 className="text-2xl font-semibold text-white mb-4">Features:</h2>
-        <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div className="mt-8 md:mt-10">
+        <h2 className="text-xl md:text-2xl font-semibold text-white mb-3 md:mb-4">
+          Features:
+        </h2>
+        <ul className="list-disc ml-5 md:ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
           {item.features?.map((feature, index) => (
             <li key={index} className="text-neutral-300">
               {feature}
@@ -94,11 +92,11 @@ const ProjectDetails = () => {
       </div>
 
       {/* Technologies */}
-      <div className="mt-10">
-        <h2 className="text-2xl font-semibold text-white mb-4">
+      <div className="mt-8 md:mt-10">
+        <h2 className="text-xl md:text-2xl font-semibold text-white mb-3 md:mb-4">
           Tools & Technologies:
         </h2>
-        <ul className="list-disc ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
+        <ul className="list-disc ml-5 md:ml-6 grid grid-cols-1 md:grid-cols-2 gap-2">
           {item.technologies?.map((tech, index) => (
             <li key={index} className="text-neutral-300">
               {tech}
@@ -108,7 +106,7 @@ const ProjectDetails = () => {
       </div>
 
       {/* Buttons */}
-      <div className="flex items-center gap-4 mt-12">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-10 md:mt-12">
         <a href={item.liveLink} target="_blank" rel="noopener noreferrer">
           <PrimaryBtn>
             <span>Visit Now</span>
