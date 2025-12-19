@@ -769,7 +769,7 @@ const Items = [
     ],
     title: "Golden Frames",
     description:
-      "Golden Frames is a MERN-stack photo-memory sharing app where user can post memorable moments with a title, message, tags, and an image. Users can interact with posts through likes, updates, and deletion.The app uses Redux Toolkit for global state management, Axios for API communication, Material-UI for UI components, MongoDB Atlas for cloud storage, and Express.js for building RESTful backend APIs. All posts are stored in MongoDB and are rendered dynamically on the UI with smooth re-renders and state updates.",
+      "Golden Frames is a MERN-stack photo-memory sharing app where user can post memorable moments with a title, message, tags, and an image. Users can interact with posts through likes, updates, and deletion.The app uses Redux Toolkit for global state management, Axios for API communication, Material-UI for UI components, MongoDB Atlas for cloud storage, and Express.js for building RESTful backend APIs. All posts are stored in MongoDB and are rendered dynamically on the UI with smooth re-render and state updates.",
     category: "mern",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/golden_frames_v2_MERN",
