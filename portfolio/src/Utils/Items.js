@@ -19,7 +19,7 @@ const Items = [
     ],
     title: "My Favorite Recipe Page",
     description:
-      "This project is a simple HTML-based recipe page that displays the steps to make a delicious chocolate cake. It includes well-structured sections such as ingredients, preparation steps, and helpful baking tips. The page uses basic HTML elements like headings, lists, text formatting tags, and separators to present the recipe clearly and neatly. It serves as a beginner-friendly example of organizing content using semantic HTML.",
+      "This project is a simple HTML based recipe page that displays the steps to make a delicious chocolate cake. It includes well-structured sections such as ingredients, preparation steps, and helpful baking tips. The page uses basic HTML elements like headings, lists, text formatting tags, and separators to present the recipe clearly and neatly. It serves as a beginner-friendly example of organizing content using semantic HTML.",
     category: "html",
     liveLink: "",
     codeLink: "https://github.com/ronikjoshi/My_Favourite_Recipe_Page_H",
