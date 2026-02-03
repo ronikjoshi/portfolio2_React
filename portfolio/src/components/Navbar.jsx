@@ -11,7 +11,7 @@ import { MdWork } from "react-icons/md";
 /* ---------------- Resume Button ---------------- */
 const ResumeButton = () => (
   <a
-    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view"
+    href=""
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 px-5 py-2.5 text-lg font-semibold

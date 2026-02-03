@@ -163,16 +163,16 @@ export default function Contact() {
             <h3 className="text-xl text-gray-300 mb-3">Social</h3>
             
             <div className="flex items-center space-x-5">
-              <a href="https://linkedin.com/in/gilberthutapea" target="_blank" className="text-3xl hover:text-orange-500 transition">
+              <a href="" target="_blank" className="text-3xl hover:text-orange-500 transition">
                 <FaLinkedin />
               </a>
-              <a href="https://github.com/berthutapea" target="_blank" className="text-3xl hover:text-orange-500 transition">
+              <a href="" target="_blank" className="text-3xl hover:text-orange-500 transition">
                 <FaGithubSquare />
               </a>
-              <a href="https://twitter.com/GilbertHutapeaa" target="_blank" className="text-3xl hover:text-orange-500 transition">
+              <a href="" target="_blank" className="text-3xl hover:text-orange-500 transition">
                 <FaTwitterSquare />
               </a>
-              <a href="https://instagram.com/bethup97" target="_blank" className="text-3xl hover:text-orange-500 transition">
+              <a href="" target="_blank" className="text-3xl hover:text-orange-500 transition">
                 <FaInstagramSquare />
               </a>
             </div>
