@@ -69,7 +69,7 @@ While front-end is my core strength, I also work confidently with Node.js, Expre
         </p>
 
         <a
-          href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+          href=""
           target="blank"
         >
           <button className="flex items-center gap-3 px-6 py-3 bg-primary text-white text-lg font-semibold rounded-lg hover:bg-orange-600 transition">
